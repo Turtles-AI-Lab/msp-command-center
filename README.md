@@ -141,12 +141,14 @@ Ticket Resolved (2.6s total)
 - [x] Real-time activity feed
 - [x] Performance metrics
 
-### Phase 2 - Visual Designer (Next)
-- [ ] Drag-and-drop workflow builder
-- [ ] Custom agent creation
-- [ ] Visual pipeline editor
-- [ ] Agent parameter tuning
-- [ ] Performance profiling
+### Phase 2 - Visual Designer (In Development) 🚧
+- [x] Drag-and-drop workflow builder
+- [x] Custom agent creation
+- [x] Visual pipeline editor
+- [x] Agent parameter tuning
+- [x] Performance profiling
+- [x] Workflow save/load
+- [x] Workflow validation & testing
 
 ### Phase 3 - Enterprise Integration
 - [ ] LLM integration (GPT-4, Claude)
