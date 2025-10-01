@@ -1,15 +1,18 @@
 # Temporarily hiding code - Coming Soon!
 # Will be revealed in public launch
 
-# Hide all implementation
+# Hide all implementation files (HTML, CSS, JS)
 index.html
+designer.html
+settings.html
 css/
 js/
 demo/
 
-# Keep documentation visible
+# Keep documentation visible (guides only, no code)
 !README.md
 !COMING_SOON.md
 !LICENSE
 !.gitignore
+!docs/
 !preview/
