@@ -1,0 +1,15 @@
+# Temporarily hiding code - Coming Soon!
+# Will be revealed in public launch
+
+# Hide all implementation
+index.html
+css/
+js/
+demo/
+
+# Keep documentation visible
+!README.md
+!COMING_SOON.md
+!LICENSE
+!.gitignore
+!preview/
