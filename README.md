@@ -176,6 +176,18 @@ Ticket Resolved (2.6s total)
 - [x] Settings UI for API configuration
 - [x] Multi-mode execution (Demo/Sandbox/Production)
 
+## 🔒 Security & Configuration
+
+⚠️ **Important Security Notes:**
+- **Never store API keys in localStorage without encryption** - Update `js/config/api-config.js`
+- Use Web Crypto API (`crypto.getRandomValues()`) for password generation
+- All API credentials should be managed via environment variables
+- Implement Content Security Policy (CSP) headers
+- Add input validation/sanitization for all user inputs
+- Review `js/api/connectors/microsoft-graph-connector.js` for secure password generation
+
+See `.env.example` for required environment variables.
+
 ### Phase 4 - Advanced Features
 - [ ] Predictive maintenance agents
 - [ ] Security monitoring agents
